@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=32&duration=3000&pause=800&color=D71921&center=true&vCenter=true&width=650&height=70&lines=LOHITHNATH+REDDY+YAGANTI;FULL-STACK+%C2%B7+AI%2FML+%C2%B7+CLOUD" alt="header"/>
+<img src="https://readme-typing-svg.demolab.com?font=Space+Mono&size=32&duration=3000&pause=800&color=D71921&center=true&vCenter=true&width=650&height=70&lines=YAGANTI+LOHITHNATH+REDDY;FULL-STACK+%C2%B7+AI%2FML+%C2%B7+CLOUD" alt="header"/>
 
 <sub>if it's buildable, i've probably already tried it — or something much better</sub>
 
