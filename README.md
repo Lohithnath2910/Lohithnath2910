@@ -144,10 +144,10 @@ Built 10+ responsive Next.js modules for a scientific workflow management system
 
 <div align="center">
 
-<img src="./metrics.svg" width="90%" alt="github metrics"/>
+<img src="./profile-3d-contrib/calendar.svg" width="92%" alt="3d contribution calendar"/>
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/Lohithnath2910/Lohithnath2910/output/snake.svg" width="95%" alt="contribution graph"/>
+<img src="./metrics.svg" width="88%" alt="github metrics"/>
 
 </div>
