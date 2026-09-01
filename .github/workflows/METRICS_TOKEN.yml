@@ -33,7 +33,7 @@ jobs:
       - name: Overview panel
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || secrets.METRICS_TOKENS }}
           filename: metrics.svg
           user: Lohithnath2910
 
