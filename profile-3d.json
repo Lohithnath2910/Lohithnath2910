@@ -1,0 +1,13 @@
+[
+  {
+    "type": "normal",
+    "fileName": "calendar.svg",
+    "backgroundColor": "#0C0C0C",
+    "foregroundColor": "#FFFFFF",
+    "strongColor": "#D71921",
+    "weakColor": "#6E6E6E",
+    "radarColor": "#D71921",
+    "growingAnimation": true,
+    "contribColors": ["#1A1A1A", "#4A0F12", "#8A1116", "#B8161C", "#D71921"]
+  }
+]
