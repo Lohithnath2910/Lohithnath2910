@@ -126,7 +126,7 @@ Built 10+ responsive Next.js modules for a scientific workflow management system
 
 ## Projects
 
-<sub>Updating soon.</sub>
+<sub>Coming soon.</sub>
 
 <br>
 
@@ -144,18 +144,18 @@ Built 10+ responsive Next.js modules for a scientific workflow management system
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Lohithnath2910&bg_color=0C0C0C&color=FFFFFF&line=D71921&point=FFFFFF&area=true&area_color=D71921&hide_border=true&custom_title=Contributions" width="98%"/>
+<img src="https://raw.githubusercontent.com/Lohithnath2910/Lohithnath2910/output/snake.svg" width="98%" alt="contribution graph"/>
 
 <br><br>
 
-<img src="https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards/master/profile-summary-card-output/github_dark/1-repos-per-language.svg?username=Lohithnath2910" width="42%"/>
+<img src="./profile-summary-card-output/github_dark/1-repos-per-language.svg" width="41%"/>
 &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards/master/profile-summary-card-output/github_dark/2-most-commit-language.svg?username=Lohithnath2910" width="42%"/>
+<img src="./profile-summary-card-output/github_dark/2-most-commit-language.svg" width="41%"/>
 
 <br>
 
-<img src="https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards/master/profile-summary-card-output/github_dark/3-stats.svg?username=Lohithnath2910" width="42%"/>
+<img src="./profile-summary-card-output/github_dark/3-stats.svg" width="41%"/>
 &nbsp;&nbsp;
-<img src="https://raw.githubusercontent.com/vn7n24fzkq/github-profile-summary-cards/master/profile-summary-card-output/github_dark/4-productive-time.svg?username=Lohithnath2910&utcOffset=5.5" width="42%"/>
+<img src="./profile-summary-card-output/github_dark/4-productive-time.svg" width="41%"/>
 
 </div>
