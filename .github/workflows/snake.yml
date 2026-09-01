@@ -1,7 +1,7 @@
 # ─────────────────────────────────────────────────────────────
 #  Contribution Snake
 #  Renders the contribution graph as an animated SVG and pushes
-#  it to the `output` branch. No secrets required.
+#  it to the `output` branch. No personal token required.
 # ─────────────────────────────────────────────────────────────
 
 name: Snake
@@ -27,11 +27,13 @@ jobs:
 
     steps:
       - name: Generate SVG
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?palette=github-dark&color_snake=%23D71921&color_dots=%231C1C1C,%235a1010,%23901818,%23b81d1d,%23D71921
+            dist/snake.svg?color_snake=#D71921&color_dots=#151515,#4a0f12,#8a1116,#b8161c,#D71921
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4
