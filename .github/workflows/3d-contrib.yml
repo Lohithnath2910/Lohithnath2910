@@ -1,0 +1,45 @@
+# ─────────────────────────────────────────────────────────────
+#  3D Contribution Calendar
+#  Renders an isometric, animated contribution calendar themed
+#  from profile-3d.json and commits it back to this repo.
+#  No personal token required.
+# ─────────────────────────────────────────────────────────────
+
+name: 3D Contributions
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+concurrency:
+  group: contrib-3d-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    name: Render calendar
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate SVG
+        uses: yoshi389111/github-profile-3d-contrib@0.7.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: ./profile-3d.json
+
+      - name: Commit result
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-3d-contrib
+          git diff --cached --quiet || git commit -m "chore: refresh 3d contribution calendar"
+          git push
