@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70" role="img" aria-label="4 ACTIVITY">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70" role="img" aria-label="4 OPERATING DATA">
 <style>
 .ink{fill:none;stroke:#141414;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
 .thin{fill:none;stroke:#141414;stroke-width:1.2}
@@ -15,6 +15,6 @@
 <rect x="0" y="0" width="895" height="55" fill="#efebe1" stroke="#141414" stroke-width="3"/>
 <rect x="0" y="0" width="64" height="55" fill="#2bb24c" stroke="#141414" stroke-width="3"/>
 <text x="32" y="38" text-anchor="middle" class="blk" font-size="26" fill="#141414">4</text>
-<text x="84" y="37" class="blk" font-size="22" fill="#141414" letter-spacing="-.5">ACTIVITY</text>
+<text x="84" y="37" class="blk" font-size="22" fill="#141414" letter-spacing="-.5">OPERATING DATA</text>
 <line x1="84" y1="46" x2="870" y2="46" pathLength="1" class="thin d" style="animation-duration:1.2s"/>
 </svg>
