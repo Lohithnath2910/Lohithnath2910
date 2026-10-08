@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 40" width="900" height="40" role="img" aria-label="End of data module">
+<style>
+.ink{fill:none;stroke:#141414;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.thin{fill:none;stroke:#141414;stroke-width:1.2}
+.d{stroke-dasharray:1;animation:draw 1.6s cubic-bezier(.6,0,.2,1) both}
+.f{animation:fade .5s ease-out both}
+.lamp{animation:lamp 2.4s steps(1) infinite}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace} .sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif} .blk{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:900}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fade{from{opacity:0}}
+@keyframes lamp{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<line x1="0" y1="20" x2="330" y2="20" stroke="#141414" stroke-width="3"/>
+<line x1="570" y1="20" x2="900" y2="20" stroke="#141414" stroke-width="3"/>
+<text x="450" y="25" text-anchor="middle" class="mono" font-size="13" font-weight="700" fill="#141414" letter-spacing="2">END OF DATA MODULE</text>
+</svg>

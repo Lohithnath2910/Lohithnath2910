@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 70" width="900" height="70" role="img" aria-label="3 SERVICE RECORD">
+<style>
+.ink{fill:none;stroke:#141414;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.thin{fill:none;stroke:#141414;stroke-width:1.2}
+.d{stroke-dasharray:1;animation:draw 1.6s cubic-bezier(.6,0,.2,1) both}
+.f{animation:fade .5s ease-out both}
+.lamp{animation:lamp 2.4s steps(1) infinite}
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace} .sans{font-family:'Helvetica Neue',Helvetica,Arial,sans-serif} .blk{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:900}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fade{from{opacity:0}}
+@keyframes lamp{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="5" y="5" width="895" height="55" fill="#141414"/>
+<rect x="0" y="0" width="895" height="55" fill="#efebe1" stroke="#141414" stroke-width="3"/>
+<rect x="0" y="0" width="64" height="55" fill="#2d55e6" stroke="#141414" stroke-width="3"/>
+<text x="32" y="38" text-anchor="middle" class="blk" font-size="26" fill="#efebe1">3</text>
+<text x="84" y="37" class="blk" font-size="22" fill="#141414" letter-spacing="-.5">SERVICE RECORD</text>
+<line x1="84" y1="46" x2="870" y2="46" pathLength="1" class="thin d" style="animation-duration:1.2s"/>
+</svg>
