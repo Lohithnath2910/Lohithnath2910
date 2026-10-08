@@ -320,7 +320,8 @@ def isometric(D):
     for i, (ds, c) in enumerate(days):
         k = i + off; cells.append((k // 7, k % 7, c, i))
     cells.sort(key=lambda t: (t[0] + t[1], t[0]))
-    busiest = max(range(len(days)), key=lambda i: days[i][1])
+    busiest = len(days) - 1  # today
+    tcount = days[-1][1]
     defs = f'''<defs><pattern id="iso-h" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(60)">
 <rect width="4" height="4" fill="{PAPER}"/><line x1="0" y1="0" x2="0" y2="4" stroke="{INK}" stroke-width="1"/></pattern></defs>'''
     body = [defs]
@@ -336,6 +337,10 @@ def isometric(D):
     for w, d, c, i in cells:
         a0, a1, b0, b1 = w + g, w + 1 - g, d + g, d + 1 - g
         L = lvl(c)
+        if L == 0 and i == busiest:
+            body.append(f'<polygon points="{poly([P(a0,b0),P(a1,b0),P(a1,b1),P(a0,b1)])}" fill="{ORANGE}" stroke="{INK}" stroke-width="1.2"/>')
+            bw, bd, bh = w, d, 0
+            continue
         if L == 0:
             body.append(f'<polygon points="{poly([P(a0,b0),P(a1,b0),P(a1,b1),P(a0,b1)])}" fill="none" stroke="{INK}" stroke-opacity=".22" stroke-width=".8"/>')
             continue
@@ -352,16 +357,20 @@ def isometric(D):
                     f'<polygon points="{poly(top)}" fill="{topc}" fill-opacity="{topo}" stroke="{INK}" stroke-width=".9" stroke-linejoin="round"/></g>')
         if i == busiest:
             bw, bd, bh = w, d, h
-    # dimension line on busiest column
-    x0b, y0b = P(bw + 1 - g, bd + 1 - g); x1b, y1b = P(bw + 1 - g, bd + 1 - g, bh)
-    dx = 26
+    # TODAY callout: halo leader from the column top to a box in clear space
+    sx, sy = P(bw + .5, bd + .5, bh)
+    lx, ly = W - 175, 330
+    ex = lx - 18
+    path = f"M{sx:.1f},{sy:.1f} L{sx + (ly - sy) * -0.0 + 20:.1f},{ly:.1f} L{lx-12:.1f},{ly:.1f}" if sy > ly else f"M{sx:.1f},{sy:.1f} L{lx-12:.1f},{ly:.1f}"
     body.append(f'<g class="f" style="animation-delay:1.6s">'
-                f'<line x1="{x0b+4:.1f}" y1="{y0b:.1f}" x2="{x0b+dx+6:.1f}" y2="{y0b:.1f}" class="thin"/>'
-                f'<line x1="{x1b+4:.1f}" y1="{y1b:.1f}" x2="{x1b+dx+6:.1f}" y2="{y1b:.1f}" class="thin"/>'
-                f'<line x1="{x0b+dx:.1f}" y1="{y0b:.1f}" x2="{x1b+dx:.1f}" y2="{y1b:.1f}" stroke="{INK}" stroke-width="1.2"/>'
-                f'<path d="M{x0b+dx:.1f} {y0b:.1f} l-3 -7 h6 Z M{x1b+dx:.1f} {y1b:.1f} l-3 7 h6 Z" fill="{INK}"/>'
-                f'<rect x="{x0b+dx+6:.1f}" y="{(y0b+y1b)/2-9:.1f}" width="{14+len(str(dmax))*7}" height="16" fill="{ORANGE}" stroke="{INK}" stroke-width="1.2"/>'
-                f'<text x="{x0b+dx+13:.1f}" y="{(y0b+y1b)/2+3:.1f}" class="mono" font-size="10.5" font-weight="700" fill="{INK}">{dmax}</text></g>')
+                f'<path d="{path}" fill="none" stroke="{PAPER}" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/>'
+                f'<path d="{path}" fill="none" stroke="{INK}" stroke-width="1.6" stroke-linejoin="round"/>'
+                f'<circle cx="{sx:.1f}" cy="{sy:.1f}" r="4.5" fill="{ORANGE}" stroke="{INK}" stroke-width="1.6"/>'
+                f'<rect x="{lx-12}" y="{ly-30}" width="150" height="62" fill="{INK}" transform="translate(4 4)"/>'
+                f'<rect x="{lx-12}" y="{ly-30}" width="150" height="62" fill="{ORANGE}" stroke="{INK}" stroke-width="2"/>'
+                f'<text x="{lx}" y="{ly-12}" class="mono" font-size="9.5" font-weight="700" fill="{INK}" letter-spacing="1">TODAY · {mdate(days[-1][0])}</text>'
+                f'<text x="{lx}" y="{ly+22}" class="blk" font-size="28" fill="{INK}">{tcount}</text>'
+                f'<text x="{lx + 8 + len(str(tcount)) * 19}" y="{ly+21}" class="mono" font-size="9.5" font-weight="700" fill="{INK}">CONTRIBUTIONS</text></g>')
     # month ticks along front edge (day 7 side)
     seen = set()
     for i, (ds, _) in enumerate(days):
@@ -384,8 +393,8 @@ def isometric(D):
     # notes block
     (lb, _, _), cur = streaks(days)
     nx, ny = W - 290, 70
-    notes = [f"1. ONE COLUMN IS ONE DAY.", f"2. COLUMN HEIGHT IS THE COUNT.", f"3. ORANGE TOP: PEAK DAY, {dmax}.",
-             f"4. {mdate(days[busiest][0])}.", f"5. LONGEST RUN: {lb} DAYS.", f"6. CURRENT RUN: {cur} DAYS."]
+    notes = [f"1. ONE COLUMN IS ONE DAY.", f"2. COLUMN HEIGHT IS THE COUNT.", f"3. ORANGE: TODAY, {mdate(days[-1][0])}.",
+             f"4. TODAY: {tcount} CONTRIBUTIONS.", f"5. LONGEST RUN: {lb} DAYS.", f"6. CURRENT RUN: {cur} DAYS."]
     body.append(f'<text x="{nx}" y="{ny}" class="mono" font-size="10" font-weight="700" fill="{INK}" letter-spacing="1">NOTES</text>')
     body.append(f'<line x1="{nx}" y1="{ny+6}" x2="{W-30}" y2="{ny+6}" class="thin"/>')
     for j, t in enumerate(notes):
