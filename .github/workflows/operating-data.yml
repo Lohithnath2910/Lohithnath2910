@@ -2,7 +2,7 @@ name: Operating data
 
 on:
   schedule:
-    - cron: "40 18 * * *"   # daily, 00:10 IST
+    - cron: "0 * * * *"     # every hour, so TODAY stays current
   workflow_dispatch:
   push:
     branches: [main]
