@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 266" width="900" height="266" role="img" aria-label="LOGBOOK, LAST ENTRIES">
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace} .blk{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:900}
+.thin{fill:none;stroke:#141414;stroke-width:1.2}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .9s cubic-bezier(.6,0,.2,1) both}
+.wipe{transform-box:fill-box;transform-origin:0 50%;animation:wipe 1s cubic-bezier(.6,0,.2,1) both}
+.f{animation:fade .5s ease-out both}
+.stamp{transform-box:fill-box;transform-origin:50% 50%;animation:stamp .35s cubic-bezier(.3,1.6,.5,1) 1.2s both}
+@keyframes grow{from{transform:scaleY(0)}} @keyframes wipe{from{transform:scaleX(0)}}
+@keyframes fade{from{opacity:0}} @keyframes stamp{from{transform:scale(1.6) rotate(-8deg);opacity:0}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="6" y="6" width="894" height="260" fill="#141414"/>
+<rect x="0" y="0" width="894" height="260" fill="#efebe1" stroke="#141414" stroke-width="3"/>
+<rect x="0" y="0" width="894" height="34" fill="#141414"/>
+<text x="18" y="22" class="mono" font-size="11.5" font-weight="700" fill="#ffd23f" letter-spacing="1.2">TABLE 2</text>
+<text x="85.19999999999999" y="22" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">LOGBOOK, LAST ENTRIES</text>
+<text x="876" y="22" text-anchor="end" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">PRIVATE ENTRIES ARE REDACTED</text>
+<rect x="24" y="48" width="846" height="24" fill="#ffd23f" stroke="#141414" stroke-width="1.5"/>
+<text x="32" y="64" class="mono" font-size="10" font-weight="700" fill="#141414" letter-spacing=".8">NO.</text>
+<text x="82" y="64" class="mono" font-size="10" font-weight="700" fill="#141414" letter-spacing=".8">DATE</text>
+<text x="198" y="64" class="mono" font-size="10" font-weight="700" fill="#141414" letter-spacing=".8">UNIT</text>
+<text x="368" y="64" class="mono" font-size="10" font-weight="700" fill="#141414" letter-spacing=".8">ACTION</text>
+<text x="798" y="64" class="mono" font-size="10" font-weight="700" fill="#141414" letter-spacing=".8">REF</text>
+<g class="f" style="animation-delay:0.15s">
+<line x1="24" y1="106" x2="870" y2="106" stroke="#141414" stroke-opacity=".3"/>
+<text x="32" y="93" class="mono" font-size="11" fill="#6b665c">001</text>
+<text x="82" y="93" class="mono" font-size="11" fill="#141414">06 OCT 2026</text>
+<text x="198" y="93" class="mono" font-size="11" font-weight="700" fill="#2d55e6">GRAPHANCHOR</text>
+<text x="368" y="93" class="mono" font-size="11" fill="#141414">Rewrite the README with results, usage and verified e…</text>
+<text x="798" y="93" class="mono" font-size="11" fill="#6b665c">c72dd0f</text></g>
+<g class="f" style="animation-delay:0.30s">
+<line x1="24" y1="140" x2="870" y2="140" stroke="#141414" stroke-opacity=".3"/>
+<text x="32" y="127" class="mono" font-size="11" fill="#6b665c">002</text>
+<text x="82" y="127" class="mono" font-size="11" fill="#141414">06 OCT 2026</text>
+<text x="198" y="127" class="mono" font-size="11" font-weight="700" fill="#2d55e6">GRAPHANCHOR</text>
+<text x="368" y="127" class="mono" font-size="11" fill="#141414">Rebuild the web interface</text>
+<text x="798" y="127" class="mono" font-size="11" fill="#6b665c">75286a7</text></g>
+<g class="f" style="animation-delay:0.45s">
+<line x1="24" y1="174" x2="870" y2="174" stroke="#141414" stroke-opacity=".3"/>
+<text x="32" y="161" class="mono" font-size="11" fill="#6b665c">003</text>
+<text x="82" y="161" class="mono" font-size="11" fill="#141414">06 OCT 2026</text>
+<text x="198" y="161" class="mono" font-size="11" font-weight="700" fill="#2d55e6">GRAPHANCHOR</text>
+<text x="368" y="161" class="mono" font-size="11" fill="#141414">Vendor Cytoscape.js and IBM Plex so the interface wor…</text>
+<text x="798" y="161" class="mono" font-size="11" fill="#6b665c">0f4b5c8</text></g>
+<g class="f" style="animation-delay:0.60s">
+<line x1="24" y1="208" x2="870" y2="208" stroke="#141414" stroke-opacity=".3"/>
+<text x="32" y="195" class="mono" font-size="11" fill="#6b665c">004</text>
+<text x="82" y="195" class="mono" font-size="11" fill="#141414">06 OCT 2026</text>
+<text x="198" y="195" class="mono" font-size="11" font-weight="700" fill="#2d55e6">GRAPHANCHOR</text>
+<text x="368" y="195" class="mono" font-size="11" fill="#141414">Run API tests against a throwaway database</text>
+<text x="798" y="195" class="mono" font-size="11" fill="#6b665c">dcc897f</text></g>
+<g class="f" style="animation-delay:0.75s">
+<line x1="24" y1="242" x2="870" y2="242" stroke="#141414" stroke-opacity=".3"/>
+<text x="32" y="229" class="mono" font-size="11" fill="#6b665c">005</text>
+<text x="82" y="229" class="mono" font-size="11" fill="#141414">06 OCT 2026</text>
+<text x="198" y="229" class="mono" font-size="11" font-weight="700" fill="#2d55e6">GRAPHANCHOR</text>
+<text x="368" y="229" class="mono" font-size="11" fill="#141414">Disable delete endpoints unless GRAPHANCHOR_ALLOW_DEL…</text>
+<text x="798" y="229" class="mono" font-size="11" fill="#6b665c">21931cf</text></g>
+<line x1="74" y1="48" x2="74" y2="242" stroke="#141414" stroke-opacity=".3"/>
+<line x1="190" y1="48" x2="190" y2="242" stroke="#141414" stroke-opacity=".3"/>
+<line x1="360" y1="48" x2="360" y2="242" stroke="#141414" stroke-opacity=".3"/>
+<line x1="790" y1="48" x2="790" y2="242" stroke="#141414" stroke-opacity=".3"/>
+<rect x="24" y="48" width="846" height="194" fill="none" stroke="#141414" stroke-width="2"/>
+</svg>
