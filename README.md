@@ -39,15 +39,17 @@
 
 <br>
 
-<img src="./assets/s4.svg" width="100%" alt="4 Activity"/>
+<img src="./assets/s4.svg" width="100%" alt="4 Operating data"/>
 
-<div align="center">
+**4.1** A GitHub Action makes these figures again each day. The data comes from the GitHub API.
 
-<img src="./profile-3d-contrib/calendar.svg" width="92%" alt="3D contribution calendar"/>
+<img src="./assets/live/isometric.svg" width="100%" alt="Figure 2: isometric view of contributions in the last 12 months"/>
 
-<img src="./metrics.svg" width="88%" alt="GitHub metrics"/>
+<img src="./assets/live/composition.svg" width="100%" alt="Figure 3: languages by bytes of code"/>
 
-</div>
+<img src="./assets/live/inspection.svg" width="100%" alt="Table 1: inspection report"/>
+
+<img src="./assets/live/logbook.svg" width="100%" alt="Table 2: last commits"/>
 
 <br>
 
