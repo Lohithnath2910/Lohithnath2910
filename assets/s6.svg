@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 140" width="900" height="140" role="img" aria-label="6 CREDENTIALS">
+<style>
+.mono{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace} .blk{font-family:'Arial Black','Helvetica Neue',Arial,sans-serif;font-weight:900}
+.ink{fill:none;stroke:#141414;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.thin{fill:none;stroke:#141414;stroke-width:1.2}
+.dsh{fill:none;stroke:#141414;stroke-width:1.2;stroke-dasharray:3 3}
+.d{stroke-dasharray:1;animation:draw 1.5s cubic-bezier(.6,0,.2,1) both}
+.f{animation:fade .5s ease-out both}
+.drop{animation:drop .7s cubic-bezier(.3,1.3,.5,1) both}
+.grow{transform-box:fill-box;transform-origin:50% 100%;animation:grow .8s cubic-bezier(.6,0,.2,1) both}
+.wipe{transform-box:fill-box;transform-origin:0 50%;animation:wipe .8s cubic-bezier(.6,0,.2,1) both}
+.slide{animation:slide 1.1s cubic-bezier(.3,1,.4,1) .3s both}
+.lamp{animation:lamp 2.4s steps(1) infinite}
+@keyframes draw{from{stroke-dashoffset:1}to{stroke-dashoffset:0}}
+@keyframes fade{from{opacity:0}}
+@keyframes drop{from{transform:translateY(-18px);opacity:0}}
+@keyframes grow{from{transform:scaleY(0)}} @keyframes wipe{from{transform:scaleX(0)}}
+@keyframes slide{from{transform:translateX(-34px)}}
+@keyframes lamp{50%{opacity:.25}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+</style>
+<rect x="6" y="6" width="894" height="134" fill="#141414"/>
+<rect x="0" y="0" width="894" height="134" fill="#efebe1" stroke="#141414" stroke-width="3"/>
+<rect x="0" y="0" width="76" height="134" fill="#ff4d17" stroke="#141414" stroke-width="3"/>
+<text x="38" y="84" text-anchor="middle" class="blk" font-size="46" fill="#141414">6</text>
+<text x="100" y="42" class="mono" font-size="11.5" fill="#6b665c" letter-spacing="1.6">APPROVALS AND CERTIFICATES</text>
+<text x="100" y="88" class="blk" font-size="30" fill="#141414" letter-spacing="-.5">CREDENTIALS</text>
+<line x1="100" y1="104" x2="560" y2="104" pathLength="1" class="thin d" style="animation-duration:1.2s"/>
+<g transform="translate(606,19)"><g class="f" style="animation-delay:.1s"><path d="M40 4 H224 V80 H40 Z" fill="#efebe1" stroke="#141414" stroke-width="1.5" opacity=".7"/></g><g class="f"><rect x="14" y="12" width="176" height="78" rx="0" fill="#efebe1" stroke="#141414" stroke-width="2.2" /><rect x="20" y="18" width="164" height="66" fill="none" stroke="#141414" stroke-width="1.2"/></g><line x1="36" y1="34" x2="130" y2="34" pathLength="1" class="ink d" style="animation-delay:0.30s"/><line x1="36" y1="48" x2="110" y2="48" pathLength="1" class="ink d" style="animation-delay:0.45s"/><line x1="36" y1="62" x2="90" y2="62" pathLength="1" class="ink d" style="animation-delay:0.60s"/><path d="M141 76 L136 98 L145 93 L150 100 L152 78" fill="#2d55e6" stroke="#141414" stroke-width="2" stroke-linejoin="round" class="f" style="animation-delay:.9s"/><path d="M159 76 L164 98 L155 93 L150 100 L148 78" fill="#2d55e6" stroke="#141414" stroke-width="2" stroke-linejoin="round" class="f" style="animation-delay:.9s"/><g class="drop" style="animation-delay:1s"><polygon points="168.0,62.0 163.5,65.6 165.6,71.0 159.9,71.9 159.0,77.6 153.6,75.5 150.0,80.0 146.4,75.5 141.0,77.6 140.1,71.9 134.4,71.0 136.5,65.6 132.0,62.0 136.5,58.4 134.4,53.0 140.1,52.1 141.0,46.4 146.4,48.5 150.0,44.0 153.6,48.5 159.0,46.4 159.9,52.1 165.6,53.0 163.5,58.4" fill="#ff4d17" stroke="#141414" stroke-width="2.2" stroke-linejoin="round"/><circle cx="150" cy="62" r="9" fill="#ffd23f" stroke="#141414" stroke-width="1.6"/></g></g>
+</svg>
