@@ -118,7 +118,7 @@
 | An answer about my code | Open an issue in the repository. |
 | To say hello | Send a message on [LinkedIn](https://www.linkedin.com/in/yaganti-lohithnath-reddy/). |
 
-**8.3** I reply in 2 days or less. [change this to what is true]
+**8.3** I reply in a day.
 
 **8.4** To see my algorithm practice, go to [LeetCode](https://leetcode.com/u/Lohithnath2910/).
 
