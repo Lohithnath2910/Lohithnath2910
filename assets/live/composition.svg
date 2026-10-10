@@ -15,7 +15,7 @@
 <rect x="0" y="0" width="894" height="34" fill="#141414"/>
 <text x="18" y="22" class="mono" font-size="11.5" font-weight="700" fill="#ffd23f" letter-spacing="1.2">FIG. 3</text>
 <text x="77.6" y="22" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">MATERIAL COMPOSITION</text>
-<text x="876" y="22" text-anchor="end" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">19 LANGUAGES</text>
+<text x="876" y="22" text-anchor="end" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">20 LANGUAGES</text>
 <defs>
 <pattern id="h1" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="6" height="6" fill="#efebe1"/><line x1="0" y1="0" x2="0" y2="6" stroke="#141414" stroke-width="2.4"/></pattern>
 <pattern id="h2" width="6" height="6" patternUnits="userSpaceOnUse" patternTransform="rotate(-45)"><rect width="6" height="6" fill="#efebe1"/><line x1="0" y1="0" x2="0" y2="6" stroke="#ff4d17" stroke-width="2.4"/></pattern>
@@ -23,18 +23,18 @@
 <pattern id="h4" width="8" height="8" patternUnits="userSpaceOnUse"><rect width="8" height="8" fill="#efebe1"/><path d="M0 4H8M4 0V8" stroke="#141414" stroke-width="1"/></pattern>
 </defs>
 <text x="24" y="52" class="mono" font-size="9.5" fill="#6b665c" letter-spacing=".8">COMPOSITION BY MASS (BYTES OF SOURCE CODE, ALL OWNED REPOSITORIES)</text>
-<rect x="24.0" y="62" width="156.6" height="40" fill="#141414" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.00s"/>
-<text x="32.0" y="87" class="mono f" font-size="11" font-weight="700" fill="#efebe1" style="animation-delay:1s">19%</text>
-<rect x="180.6" y="62" width="147.5" height="40" fill="#ff4d17" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.12s"/>
-<text x="188.6" y="87" class="mono f" font-size="11" font-weight="700" fill="#141414" style="animation-delay:1s">17%</text>
-<rect x="328.1" y="62" width="128.1" height="40" fill="#2d55e6" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.24s"/>
-<text x="336.1" y="87" class="mono f" font-size="11" font-weight="700" fill="#efebe1" style="animation-delay:1s">15%</text>
-<rect x="456.2" y="62" width="125.7" height="40" fill="#ffd23f" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.36s"/>
-<text x="464.2" y="87" class="mono f" font-size="11" font-weight="700" fill="#141414" style="animation-delay:1s">15%</text>
-<rect x="581.9" y="62" width="81.5" height="40" fill="url(#h1)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.48s"/>
-<rect x="663.4" y="62" width="68.9" height="40" fill="url(#h2)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.60s"/>
-<rect x="732.3" y="62" width="60.2" height="40" fill="url(#h3)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.72s"/>
-<rect x="792.5" y="62" width="77.5" height="40" fill="url(#h4)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.84s"/>
+<rect x="24.0" y="62" width="135.6" height="40" fill="#141414" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.00s"/>
+<text x="32.0" y="87" class="mono f" font-size="11" font-weight="700" fill="#efebe1" style="animation-delay:1s">16%</text>
+<rect x="159.6" y="62" width="132.6" height="40" fill="#ff4d17" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.12s"/>
+<text x="167.6" y="87" class="mono f" font-size="11" font-weight="700" fill="#141414" style="animation-delay:1s">16%</text>
+<rect x="292.2" y="62" width="124.9" height="40" fill="#2d55e6" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.24s"/>
+<text x="300.2" y="87" class="mono f" font-size="11" font-weight="700" fill="#efebe1" style="animation-delay:1s">15%</text>
+<rect x="417.0" y="62" width="108.5" height="40" fill="#ffd23f" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.36s"/>
+<text x="425.0" y="87" class="mono f" font-size="11" font-weight="700" fill="#141414" style="animation-delay:1s">13%</text>
+<rect x="525.5" y="62" width="106.4" height="40" fill="url(#h1)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.48s"/>
+<rect x="631.9" y="62" width="69.0" height="40" fill="url(#h2)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.60s"/>
+<rect x="701.0" y="62" width="51.0" height="40" fill="url(#h3)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.72s"/>
+<rect x="751.9" y="62" width="118.1" height="40" fill="url(#h4)" stroke="#141414" stroke-width="1.5" class="wipe" style="animation-delay:0.84s"/>
 <rect x="24" y="62" width="846" height="40" fill="none" stroke="#141414" stroke-width="3"/>
 <line x1="24.0" y1="102" x2="24.0" y2="109" stroke="#141414"/>
 <text x="24.0" y="120" text-anchor="middle" class="mono" font-size="8.5" fill="#6b665c">0</text>
@@ -52,42 +52,42 @@
 <text x="870.0" y="120" text-anchor="middle" class="mono" font-size="8.5" fill="#6b665c">100</text>
 <g class="f" style="animation-delay:0.80s"><rect x="24.0" y="131" width="14" height="14" fill="#141414" stroke="#141414" stroke-width="1.5"/>
 <text x="48.0" y="142" class="mono" font-size="11" fill="#6b665c">L-01</text>
-<text x="88.0" y="142" class="mono" font-size="11.5" font-weight="700" fill="#141414">PYTHON</text>
-<line x1="138.6" y1="139" x2="377.0" y2="139" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="437.0" y="142" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 18.5 %</text></g>
+<text x="88.0" y="142" class="mono" font-size="11.5" font-weight="700" fill="#141414">RUST</text>
+<line x1="124.4" y1="139" x2="377.0" y2="139" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
+<text x="437.0" y="142" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 16.0 %</text></g>
 <g class="f" style="animation-delay:0.86s"><rect x="457.0" y="131" width="14" height="14" fill="#ff4d17" stroke="#141414" stroke-width="1.5"/>
 <text x="481.0" y="142" class="mono" font-size="11" fill="#6b665c">L-02</text>
-<text x="521.0" y="142" class="mono" font-size="11.5" font-weight="700" fill="#141414">DART</text>
-<line x1="557.4" y1="139" x2="810.0" y2="139" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="870.0" y="142" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 17.4 %</text></g>
+<text x="521.0" y="142" class="mono" font-size="11.5" font-weight="700" fill="#141414">PYTHON</text>
+<line x1="571.6" y1="139" x2="810.0" y2="139" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
+<text x="870.0" y="142" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 15.7 %</text></g>
 <g class="f" style="animation-delay:0.92s"><rect x="24.0" y="157" width="14" height="14" fill="#2d55e6" stroke="#141414" stroke-width="1.5"/>
 <text x="48.0" y="168" class="mono" font-size="11" fill="#6b665c">L-03</text>
-<text x="88.0" y="168" class="mono" font-size="11.5" font-weight="700" fill="#141414">HTML</text>
+<text x="88.0" y="168" class="mono" font-size="11.5" font-weight="700" fill="#141414">DART</text>
 <line x1="124.4" y1="165" x2="377.0" y2="165" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="437.0" y="168" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 15.1 %</text></g>
+<text x="437.0" y="168" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 14.8 %</text></g>
 <g class="f" style="animation-delay:0.98s"><rect x="457.0" y="157" width="14" height="14" fill="#ffd23f" stroke="#141414" stroke-width="1.5"/>
 <text x="481.0" y="168" class="mono" font-size="11" fill="#6b665c">L-04</text>
-<text x="521.0" y="168" class="mono" font-size="11.5" font-weight="700" fill="#141414">TYPESCRIPT</text>
-<line x1="600.0" y1="165" x2="810.0" y2="165" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="870.0" y="168" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 14.9 %</text></g>
+<text x="521.0" y="168" class="mono" font-size="11.5" font-weight="700" fill="#141414">HTML</text>
+<line x1="557.4" y1="165" x2="810.0" y2="165" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
+<text x="870.0" y="168" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 12.8 %</text></g>
 <g class="f" style="animation-delay:1.04s"><rect x="24.0" y="183" width="14" height="14" fill="url(#h1)" stroke="#141414" stroke-width="1.5"/>
 <text x="48.0" y="194" class="mono" font-size="11" fill="#6b665c">L-05</text>
-<text x="88.0" y="194" class="mono" font-size="11.5" font-weight="700" fill="#141414">JUPYTER NOTEBOOK</text>
-<line x1="209.6" y1="191" x2="377.0" y2="191" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="437.0" y="194" text-anchor="end" class="mono" font-size="11.5" fill="#141414">  9.6 %</text></g>
+<text x="88.0" y="194" class="mono" font-size="11.5" font-weight="700" fill="#141414">TYPESCRIPT</text>
+<line x1="167.0" y1="191" x2="377.0" y2="191" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
+<text x="437.0" y="194" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 12.6 %</text></g>
 <g class="f" style="animation-delay:1.10s"><rect x="457.0" y="183" width="14" height="14" fill="url(#h2)" stroke="#141414" stroke-width="1.5"/>
 <text x="481.0" y="194" class="mono" font-size="11" fill="#6b665c">L-06</text>
-<text x="521.0" y="194" class="mono" font-size="11.5" font-weight="700" fill="#141414">RUST</text>
-<line x1="557.4" y1="191" x2="810.0" y2="191" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="870.0" y="194" text-anchor="end" class="mono" font-size="11.5" fill="#141414">  8.1 %</text></g>
+<text x="521.0" y="194" class="mono" font-size="11.5" font-weight="700" fill="#141414">JUPYTER NOTEBOOK</text>
+<line x1="642.6" y1="191" x2="810.0" y2="191" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
+<text x="870.0" y="194" text-anchor="end" class="mono" font-size="11.5" fill="#141414">  8.2 %</text></g>
 <g class="f" style="animation-delay:1.16s"><rect x="24.0" y="209" width="14" height="14" fill="url(#h3)" stroke="#141414" stroke-width="1.5"/>
 <text x="48.0" y="220" class="mono" font-size="11" fill="#6b665c">L-07</text>
 <text x="88.0" y="220" class="mono" font-size="11.5" font-weight="700" fill="#141414">C++</text>
 <line x1="117.3" y1="217" x2="377.0" y2="217" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="437.0" y="220" text-anchor="end" class="mono" font-size="11.5" fill="#141414">  7.1 %</text></g>
+<text x="437.0" y="220" text-anchor="end" class="mono" font-size="11.5" fill="#141414">  6.0 %</text></g>
 <g class="f" style="animation-delay:1.22s"><rect x="457.0" y="209" width="14" height="14" fill="url(#h4)" stroke="#141414" stroke-width="1.5"/>
 <text x="481.0" y="220" class="mono" font-size="11" fill="#6b665c">L-08</text>
 <text x="521.0" y="220" class="mono" font-size="11.5" font-weight="700" fill="#141414">OTHER</text>
 <line x1="564.5" y1="217" x2="810.0" y2="217" stroke="#141414" stroke-opacity=".35" stroke-dasharray="1 3"/>
-<text x="870.0" y="220" text-anchor="end" class="mono" font-size="11.5" fill="#141414">  9.2 %</text></g>
+<text x="870.0" y="220" text-anchor="end" class="mono" font-size="11.5" fill="#141414"> 14.0 %</text></g>
 </svg>

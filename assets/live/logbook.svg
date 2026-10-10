@@ -33,7 +33,7 @@
 <g class="f" style="animation-delay:0.30s">
 <line x1="24" y1="140" x2="870" y2="140" stroke="#141414" stroke-opacity=".3"/>
 <text x="32" y="127" class="mono" font-size="11" fill="#6b665c">002</text>
-<text x="82" y="127" class="mono" font-size="11" fill="#141414">09 OCT 2026</text>
+<text x="82" y="127" class="mono" font-size="11" fill="#141414">10 OCT 2026</text>
 <rect x="198" y="116" width="130" height="14" fill="#141414"/>
 <rect x="368" y="116" width="217" height="14" fill="#141414"/>
 <text x="595" y="127" class="mono" font-size="9" font-weight="700" fill="#ff4d17">RESTRICTED</text>
@@ -41,7 +41,7 @@
 <g class="f" style="animation-delay:0.45s">
 <line x1="24" y1="174" x2="870" y2="174" stroke="#141414" stroke-opacity=".3"/>
 <text x="32" y="161" class="mono" font-size="11" fill="#6b665c">003</text>
-<text x="82" y="161" class="mono" font-size="11" fill="#141414">09 OCT 2026</text>
+<text x="82" y="161" class="mono" font-size="11" fill="#141414">10 OCT 2026</text>
 <rect x="198" y="150" width="130" height="14" fill="#141414"/>
 <rect x="368" y="150" width="254" height="14" fill="#141414"/>
 <text x="632" y="161" class="mono" font-size="9" font-weight="700" fill="#ff4d17">RESTRICTED</text>
@@ -49,7 +49,7 @@
 <g class="f" style="animation-delay:0.60s">
 <line x1="24" y1="208" x2="870" y2="208" stroke="#141414" stroke-opacity=".3"/>
 <text x="32" y="195" class="mono" font-size="11" fill="#6b665c">004</text>
-<text x="82" y="195" class="mono" font-size="11" fill="#141414">09 OCT 2026</text>
+<text x="82" y="195" class="mono" font-size="11" fill="#141414">10 OCT 2026</text>
 <rect x="198" y="184" width="130" height="14" fill="#141414"/>
 <rect x="368" y="184" width="291" height="14" fill="#141414"/>
 <text x="669" y="195" class="mono" font-size="9" font-weight="700" fill="#ff4d17">RESTRICTED</text>
@@ -57,11 +57,10 @@
 <g class="f" style="animation-delay:0.75s">
 <line x1="24" y1="242" x2="870" y2="242" stroke="#141414" stroke-opacity=".3"/>
 <text x="32" y="229" class="mono" font-size="11" fill="#6b665c">005</text>
-<text x="82" y="229" class="mono" font-size="11" fill="#141414">09 OCT 2026</text>
-<rect x="198" y="218" width="130" height="14" fill="#141414"/>
-<rect x="368" y="218" width="208" height="14" fill="#141414"/>
-<text x="586" y="229" class="mono" font-size="9" font-weight="700" fill="#ff4d17">RESTRICTED</text>
-<text x="798" y="229" class="mono" font-size="11" fill="#6b665c">■■■■■■■</text></g>
+<text x="82" y="229" class="mono" font-size="11" fill="#141414">10 OCT 2026</text>
+<text x="198" y="229" class="mono" font-size="11" font-weight="700" fill="#2d55e6">CANVAS</text>
+<text x="368" y="229" class="mono" font-size="11" fill="#141414">Merge remote history into local main (keep local tree)</text>
+<text x="798" y="229" class="mono" font-size="11" fill="#6b665c">85e6b05</text></g>
 <line x1="74" y1="48" x2="74" y2="242" stroke="#141414" stroke-opacity=".3"/>
 <line x1="190" y1="48" x2="190" y2="242" stroke="#141414" stroke-opacity=".3"/>
 <line x1="360" y1="48" x2="360" y2="242" stroke="#141414" stroke-opacity=".3"/>
