@@ -67,7 +67,6 @@
 
 | Part | Languages | Interface | Server | AI | Data |
 | :-- | :-- | :-- | :-- | :-- | :-- |
-| GraphAnchor | Python | Web page | Python API | Knowledge graph, spaCy, embeddings | ChromaDB, SQLite |
 | Inferra | TypeScript, Python | Next.js, Tailwind | FastAPI | Embeddings, IBM language model | ChromaDB |
 | Notebound | Python | None | FastAPI | Embeddings, IBM language model | ChromaDB |
 | LexiSem | Python | None | FastAPI | spaCy, Ollama | Excel files |
