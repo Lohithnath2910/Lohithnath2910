@@ -45,10 +45,9 @@
 
 | Part | Name | What it does | Best part |
 | :-- | :-- | :-- | :-- |
-| 4.1.1 | [GraphAnchor](https://github.com/Lohithnath2910/GraphAnchor) | Answers questions that need facts from several documents. It joins vector search to a knowledge graph. | Ask who chairs the bank that paid for a wind farm. Plain search names the bank. GraphAnchor names the person. It scored 59.5% against 38.0% on 79 hard questions. |
-| 4.1.2 | [Inferra](https://github.com/Lohithnath2910/Inferra) | You upload a PDF and ask a question. A Next.js page shows the answer. | It reads 3 passages, not the whole PDF. |
-| 4.1.3 | [Notebound](https://github.com/Lohithnath2910/notebound-be-python) | A chat backend for many PDFs. It cuts each PDF into passages by meaning. | Each PDF stays in its own box, so answers do not mix. The chat remembers what you said. |
-| 4.1.4 | [LexiSem](https://github.com/Lohithnath2910/LexiSem) | Takes a sentence and gives the lemma, the part of speech and the meaning of each word in that sentence. | The same word gets a different meaning in each sentence. Feed it an Excel file and it writes the answers back. |
+| 4.1.1 | [Inferra](https://github.com/Lohithnath2910/Inferra) | You upload a PDF and ask a question. A Next.js page shows the answer. | It reads 3 passages, not the whole PDF. |
+| 4.1.2 | [Notebound](https://github.com/Lohithnath2910/notebound-be-python) | A chat backend for many PDFs. It cuts each PDF into passages by meaning. | Each PDF stays in its own box, so answers do not mix. The chat remembers what you said. |
+| 4.1.3 | [LexiSem](https://github.com/Lohithnath2910/LexiSem) | Takes a sentence and gives the lemma, the part of speech and the meaning of each word in that sentence. | The same word gets a different meaning in each sentence. Feed it an Excel file and it writes the answers back. |
 
 **4.2** Systems and tools. These projects connect hardware, people and servers.
 
