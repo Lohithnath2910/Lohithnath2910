@@ -15,7 +15,7 @@
 <rect x="0" y="0" width="894" height="34" fill="#141414"/>
 <text x="18" y="22" class="mono" font-size="11.5" font-weight="700" fill="#ffd23f" letter-spacing="1.2">FIG. 2</text>
 <text x="77.6" y="22" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">ISOMETRIC VIEW, LAST 12 MONTHS</text>
-<text x="876" y="22" text-anchor="end" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">TOTAL 733 CONTRIBUTIONS</text>
+<text x="876" y="22" text-anchor="end" class="mono" font-size="11.5" fill="#efebe1" letter-spacing="1.2">TOTAL 719 CONTRIBUTIONS</text>
 <defs><pattern id="iso-h" width="4" height="4" patternUnits="userSpaceOnUse" patternTransform="rotate(60)">
 <rect width="4" height="4" fill="#efebe1"/><line x1="0" y1="0" x2="0" y2="4" stroke="#141414" stroke-width="1"/></pattern></defs>
 <polygon points="190.0,170.8 683.9,455.9 612.3,497.2 118.4,212.1" fill="none" stroke="#141414" stroke-width="1.6"/>
@@ -371,12 +371,13 @@
 <g class="grow" style="animation-delay:0.88s"><polygon points="605.7,455.9 612.3,459.7 612.3,410.3 605.7,406.5" fill="url(#iso-h)" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="618.9,455.9 612.3,459.7 612.3,410.3 618.9,406.5" fill="#141414" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="612.3,402.6 618.9,406.5 612.3,410.3 605.7,406.5" fill="#efebe1" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="612.3,402.6 618.9,406.5 612.3,410.3 605.7,406.5" fill="#2d55e6" fill-opacity="1" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/></g>
 <polygon points="630.6,452.1 637.2,455.9 630.6,459.7 624.0,455.9" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <polygon points="649.0,452.1 655.6,455.9 649.0,459.7 642.4,455.9" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
-<polygon points="667.4,452.1 674.0,455.9 667.4,459.7 660.7,455.9" fill="#ff4d17" stroke="#141414" stroke-width="1.2"/>
+<polygon points="667.4,452.1 674.0,455.9 667.4,459.7 660.7,455.9" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <polygon points="566.4,457.4 573.0,461.2 566.4,465.0 559.8,461.2" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <polygon points="584.7,457.4 591.3,461.2 584.7,465.0 578.1,461.2" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <g class="grow" style="animation-delay:0.88s"><polygon points="596.5,461.2 603.1,465.0 603.1,449.7 596.5,445.9" fill="url(#iso-h)" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="609.7,461.2 603.1,465.0 603.1,449.7 609.7,445.9" fill="#141414" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="603.1,442.1 609.7,445.9 603.1,449.7 596.5,445.9" fill="#efebe1" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="603.1,442.1 609.7,445.9 603.1,449.7 596.5,445.9" fill="#2d55e6" fill-opacity="0.5" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/></g>
 <polygon points="621.5,457.4 628.1,461.2 621.5,465.0 614.8,461.2" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <g class="grow" style="animation-delay:0.92s"><polygon points="633.2,461.2 639.8,465.0 639.8,424.9 633.2,421.1" fill="url(#iso-h)" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="646.4,461.2 639.8,465.0 639.8,424.9 646.4,421.1" fill="#141414" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="639.8,417.2 646.4,421.1 639.8,424.9 633.2,421.1" fill="#efebe1" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="639.8,417.2 646.4,421.1 639.8,424.9 633.2,421.1" fill="#2d55e6" fill-opacity="0.78" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/></g>
+<polygon points="658.2,457.4 664.8,461.2 658.2,465.0 651.6,461.2" fill="#ff4d17" stroke="#141414" stroke-width="1.2"/>
 <polygon points="575.6,462.7 582.2,466.5 575.6,470.3 568.9,466.5" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <g class="grow" style="animation-delay:0.88s"><polygon points="587.3,466.5 593.9,470.3 593.9,389.8 587.3,386.0" fill="url(#iso-h)" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="600.5,466.5 593.9,470.3 593.9,389.8 600.5,386.0" fill="#141414" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="593.9,382.2 600.5,386.0 593.9,389.8 587.3,386.0" fill="#efebe1" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/><polygon points="593.9,382.2 600.5,386.0 593.9,389.8 587.3,386.0" fill="#2d55e6" fill-opacity="1" stroke="#141414" stroke-width=".9" stroke-linejoin="round"/></g>
 <polygon points="612.3,462.7 618.9,466.5 612.3,470.3 605.7,466.5" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
@@ -387,7 +388,7 @@
 <polygon points="593.9,473.3 600.5,477.1 593.9,480.9 587.3,477.1" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <polygon points="612.3,473.3 618.9,477.1 612.3,480.9 605.7,477.1" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
 <polygon points="603.1,478.6 609.7,482.4 603.1,486.2 596.5,482.4" fill="none" stroke="#141414" stroke-opacity=".22" stroke-width=".8"/>
-<g class="f" style="animation-delay:1.6s"><path d="M667.4,455.9 L687.4,330.0 L713.0,330.0" fill="none" stroke="#efebe1" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><path d="M667.4,455.9 L687.4,330.0 L713.0,330.0" fill="none" stroke="#141414" stroke-width="1.6" stroke-linejoin="round"/><circle cx="667.4" cy="455.9" r="4.5" fill="#ff4d17" stroke="#141414" stroke-width="1.6"/><rect x="713" y="300" width="150" height="62" fill="#141414" transform="translate(4 4)"/><rect x="713" y="300" width="150" height="62" fill="#ff4d17" stroke="#141414" stroke-width="2"/><text x="725" y="318" class="mono" font-size="9.5" font-weight="700" fill="#141414" letter-spacing="1">TODAY · 25 OCT 2026</text><text x="725" y="352" class="blk" font-size="28" fill="#141414">0</text><text x="752" y="351" class="mono" font-size="9.5" font-weight="700" fill="#141414">CONTRIBUTIONS</text></g>
+<g class="f" style="animation-delay:1.6s"><path d="M658.2,461.2 L678.2,330.0 L713.0,330.0" fill="none" stroke="#efebe1" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><path d="M658.2,461.2 L678.2,330.0 L713.0,330.0" fill="none" stroke="#141414" stroke-width="1.6" stroke-linejoin="round"/><circle cx="658.2" cy="461.2" r="4.5" fill="#ff4d17" stroke="#141414" stroke-width="1.6"/><rect x="713" y="300" width="150" height="62" fill="#141414" transform="translate(4 4)"/><rect x="713" y="300" width="150" height="62" fill="#ff4d17" stroke="#141414" stroke-width="2"/><text x="725" y="318" class="mono" font-size="9.5" font-weight="700" fill="#141414" letter-spacing="1">TODAY · 26 OCT 2026</text><text x="725" y="352" class="blk" font-size="28" fill="#141414">0</text><text x="752" y="351" class="mono" font-size="9.5" font-weight="700" fill="#141414">CONTRIBUTIONS</text></g>
 <line x1="135.8" y1="230.2" x2="124.8" y2="236.5" class="thin"/>
 <text x="120.8" y="250.5" text-anchor="end" class="mono" font-size="9" fill="#141414">NOV</text>
 <line x1="181.7" y1="256.7" x2="170.7" y2="263.0" class="thin"/>
@@ -420,7 +421,7 @@
 <line x1="610" y1="76" x2="870" y2="76" class="thin"/>
 <text x="610" y="94" class="mono" font-size="10" fill="#141414">1. ONE COLUMN IS ONE DAY.</text>
 <text x="610" y="111" class="mono" font-size="10" fill="#141414">2. COLUMN HEIGHT IS THE COUNT.</text>
-<text x="610" y="128" class="mono" font-size="10" fill="#141414">3. ORANGE: TODAY, 25 OCT 2026.</text>
+<text x="610" y="128" class="mono" font-size="10" fill="#141414">3. ORANGE: TODAY, 26 OCT 2026.</text>
 <text x="610" y="145" class="mono" font-size="10" fill="#141414">4. TODAY: 0 CONTRIBUTIONS.</text>
 <text x="610" y="162" class="mono" font-size="10" fill="#141414">5. LONGEST RUN: 12 DAYS.</text>
 <text x="610" y="179" class="mono" font-size="10" fill="#141414">6. CURRENT RUN: 0 DAYS.</text>
